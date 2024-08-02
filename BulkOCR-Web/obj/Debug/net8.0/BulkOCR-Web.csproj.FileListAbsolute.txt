@@ -27,3 +27,4 @@ Z:\Projects\Coding\Visual Studio\BulkOCR-Web\BulkOCR-Web\obj\Debug\net8.0\refint
 Z:\Projects\Coding\Visual Studio\BulkOCR-Web\BulkOCR-Web\obj\Debug\net8.0\BulkOCR-Web.pdb
 Z:\Projects\Coding\Visual Studio\BulkOCR-Web\BulkOCR-Web\obj\Debug\net8.0\BulkOCR-Web.genruntimeconfig.cache
 Z:\Projects\Coding\Visual Studio\BulkOCR-Web\BulkOCR-Web\obj\Debug\net8.0\ref\BulkOCR-Web.dll
+Z:\Projects\Coding\Visual Studio\BulkOCR-Web\BulkOCR-Web\obj\Debug\net8.0\BulkOCR-Web.sourcelink.json

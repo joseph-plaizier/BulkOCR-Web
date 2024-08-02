@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35122.118
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BulkOCR-Web", "BulkOCR-Web\BulkOCR-Web.csproj", "{E6783C32-30D1-48E9-BB54-FCE42C85A34E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BulkOCR-Web", "BulkOCR-Web\BulkOCR-Web.csproj", "{E6783C32-30D1-48E9-BB54-FCE42C85A34E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
