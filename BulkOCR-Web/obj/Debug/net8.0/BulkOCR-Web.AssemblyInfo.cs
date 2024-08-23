@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BulkOCR-Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+26b32d4e5947e27f19dd4673e2fed4d820429bf7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dec98b4bb2b983ad33e722469a357fe9241d105c")]
 [assembly: System.Reflection.AssemblyProductAttribute("BulkOCR-Web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BulkOCR-Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
