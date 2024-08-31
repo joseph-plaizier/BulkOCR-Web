@@ -1,0 +1,83 @@
+﻿@rendermode InteractiveServer
+
+Please select images to upload.
+<br />
+Accepted types are .jpeg, .jpg, .tiff, and .png.
+<br />
+<br />
+@*adding the key word multiple allows multiple files to be selected*@
+<InputFile OnChange="LoadFiles" multiple hidden="@hiddenInput"></InputFile>
+@*https://learn.microsoft.com/en-us/aspnet/core/blazor/file-uploads?view=aspnetcore-8.0*@
+
+<br />
+<ul>
+    @foreach (var file in imageFiles2)
+    {
+        <li>
+            <ul>
+                <li>Name: @file.Name</li>
+                <li>Last modified: @file.LastModified.ToString()</li>
+                <li>Size (bytes): @file.Size</li>
+                <li>Content type: @file.ContentType</li>
+                <li>File extension: @file.Extension</li>
+            </ul>
+        </li>
+    }
+</ul>
+
+<button class="btn btn-primary" type="reset" @onclick="Reset">Reset</button>
+
+@code {
+    private bool hiddenInput;
+
+    private List<string> extensions = new()
+    {
+        ".jpg",
+        ".jpeg",
+        ".tiff",
+        ".png"
+    };
+
+    private List<IBrowserFile> imageFiles = new ();
+
+    private List<ImageFile> imageFiles2 = new();
+
+    private void LoadFiles(InputFileChangeEventArgs e)
+    {
+        imageFiles2.Clear();
+
+        if(e != null)
+        {
+            hiddenInput = true;
+
+            foreach (var i in e.GetMultipleFiles())
+            {
+
+                    string ext = i.Name.Substring(i.Name.LastIndexOf("."));
+                    ImageFile img = new ImageFile(
+                        i.Name, 
+                        i.Size, 
+                        i.LastModified, 
+                        i.ContentType, 
+                        ext);
+
+                    //TODO: check if proper type
+
+
+                    //add files to list
+                    //imageFiles.Add(image);
+                    imageFiles2.Add(img);
+                
+            }
+        }
+    }
+
+    private void Reset()
+    {
+        //clear selected files
+        imageFiles2.Clear();
+
+        //clear listed files
+        hiddenInput = false;
+    }
+}

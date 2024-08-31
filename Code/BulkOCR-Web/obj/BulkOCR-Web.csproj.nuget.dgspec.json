@@ -10,11 +10,11 @@
         "projectUniqueName": "Y:\\Projects\\Coding\\Visual Studio\\BulkOCR-Web\\Code\\BulkOCR-Web\\BulkOCR-Web.csproj",
         "projectName": "BulkOCR-Web",
         "projectPath": "Y:\\Projects\\Coding\\Visual Studio\\BulkOCR-Web\\Code\\BulkOCR-Web\\BulkOCR-Web.csproj",
-        "packagesPath": "C:\\Users\\cantc\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\Gelato\\.nuget\\packages\\",
         "outputPath": "Y:\\Projects\\Coding\\Visual Studio\\BulkOCR-Web\\Code\\BulkOCR-Web\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\cantc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Gelato\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -64,7 +64,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

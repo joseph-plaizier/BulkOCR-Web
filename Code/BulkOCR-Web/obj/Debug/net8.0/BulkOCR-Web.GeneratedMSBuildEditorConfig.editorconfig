@@ -22,12 +22,12 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBcHAucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[Y:/Projects/Coding/Visual Studio/BulkOCR-Web/Code/BulkOCR-Web/Components/Pages/Error.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFcnJvci5yYXpvcg==
+[Y:/Projects/Coding/Visual Studio/BulkOCR-Web/Code/BulkOCR-Web/Components/Collection/FileUploadComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb2xsZWN0aW9uXEZpbGVVcGxvYWRDb21wb25lbnQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[Y:/Projects/Coding/Visual Studio/BulkOCR-Web/Code/BulkOCR-Web/Components/Pages/FileUpload.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xGaWxlVXBsb2FkLnJhem9y
+[Y:/Projects/Coding/Visual Studio/BulkOCR-Web/Code/BulkOCR-Web/Components/Pages/Error.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFcnJvci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [Y:/Projects/Coding/Visual Studio/BulkOCR-Web/Code/BulkOCR-Web/Components/Pages/Home.razor]
