@@ -1,0 +1,21 @@
+﻿
+@if(File != null)
+{
+    <li>
+        <ul>
+            <li>Name: @File.Name</li>
+            <li>Last modified: @File.LastModified.ToString()</li>
+            <li>Size (bytes): @File.Size</li>
+            <li>Content type: @File.ContentType</li>
+            <li>File extension: @File.Extension</li>
+            <li>File path: @File.FilePath</li>
+        </ul>
+    </li>
+}
+
+
+@code {
+    [Parameter]
+    public ImageFile? File { get; set; }
+
+}

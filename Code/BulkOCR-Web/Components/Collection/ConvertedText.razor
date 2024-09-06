@@ -1,0 +1,34 @@
+﻿
+<div>
+    <p>
+        @Convert();
+    </p>
+</div>
+
+<h3>ConvertedText</h3>
+
+@code {
+    private string? _imagePath;
+
+    [Parameter]
+    public string? ImagePath { get; set; }
+
+
+    private TesseractEngine? ocrengine;
+    private Pix? img;
+    private Page? res;
+    private string? convertedText;
+
+    private string Convert()
+    {
+        ocrengine = new TesseractEngine(@".\tessdata", "eng", EngineMode.Default);
+
+        img = Pix.LoadFromFile(ImagePath);
+
+        res = ocrengine.Process(img);
+
+        convertedText = res.GetText();
+
+        return convertedText;
+    }
+}

@@ -1,42 +1,50 @@
 ﻿@rendermode InteractiveServer
+@inject IWebHostEnvironment WebHotEnv
 
-Please select images to upload.
+<div class="text-center">
+    <p>Please select images to upload.</p>
+    <br />
+    <p>
+        Accepted types are .jpeg, .jpg, .tiff, and .png.
+    </p>
+</div>
 <br />
-Accepted types are .jpeg, .jpg, .tiff, and .png.
 <br />
-<br />
+<div class="text-center">
 @*adding the key word multiple allows multiple files to be selected*@
 <InputFile OnChange="LoadFiles" multiple hidden="@hiddenInput"></InputFile>
+</div>
+
 @*https://learn.microsoft.com/en-us/aspnet/core/blazor/file-uploads?view=aspnetcore-8.0*@
 
 <br />
 <ul>
     @foreach (var file in imageFiles2)
     {
-        <li>
-            <ul>
-                <li>Name: @file.Name</li>
-                <li>Last modified: @file.LastModified.ToString()</li>
-                <li>Size (bytes): @file.Size</li>
-                <li>Content type: @file.ContentType</li>
-                <li>File extension: @file.Extension</li>
-            </ul>
-        </li>
+        <FileDetailsComponent File="@file"></FileDetailsComponent>
+        <br />
+        @*TODO: wait for image file path to be saved to object before rendering the ConvertedText component*@
+        @*<ConvertedText ImagePath="@file.Name"></ConvertedText>*@
     }
 </ul>
+<div class="text-center">
+    <button class="btn btn-primary" type="reset" @onclick="Reset">Reset</button>
+    <br />
+    @tess.AppStart()
+</div>
 
-<button class="btn btn-primary" type="reset" @onclick="Reset">Reset</button>
 
 @code {
+    private string? _uploadedImageUrl;
+
+    private Tess tess = new Tess();
     private bool hiddenInput;
 
-    private List<string> extensions = new()
-    {
-        ".jpg",
-        ".jpeg",
-        ".tiff",
-        ".png"
-    };
+    private static readonly HashSet<string> _imageExtensions = new HashSet<string>(
+        [".jpg", 
+    ".jpeg", 
+    ".tiff",
+    ".png"], StringComparer.OrdinalIgnoreCase);
 
     private List<IBrowserFile> imageFiles = new ();
 
@@ -48,26 +56,28 @@ Accepted types are .jpeg, .jpg, .tiff, and .png.
 
         if(e != null)
         {
-            hiddenInput = true;
+            //hiddenInput = true;
 
             foreach (var i in e.GetMultipleFiles())
             {
 
-                    string ext = i.Name.Substring(i.Name.LastIndexOf("."));
-                    ImageFile img = new ImageFile(
-                        i.Name, 
-                        i.Size, 
-                        i.LastModified, 
-                        i.ContentType, 
-                        ext);
-
-                    //TODO: check if proper type
 
 
-                    //add files to list
-                    //imageFiles.Add(image);
-                    imageFiles2.Add(img);
-                
+                string ext = i.Name.Substring(i.Name.LastIndexOf("."));
+                ImageFile img = new ImageFile(
+                    i.Name, 
+                    i.Size, 
+                    i.LastModified, 
+                    i.ContentType, 
+                    ext) ;
+
+
+                //add files to list
+                //imageFiles.Add(image);
+                imageFiles2.Add(img);
+
+                //load file to server
+                UploadFile(i, img);
             }
         }
     }
@@ -79,5 +89,39 @@ Accepted types are .jpeg, .jpg, .tiff, and .png.
 
         //clear listed files
         hiddenInput = false;
+    }
+
+    public async Task UploadFile(IBrowserFile file, ImageFile imageFile){
+        var folderPath = Path.Combine(WebHotEnv.WebRootPath, "uploads");
+        Directory.CreateDirectory(folderPath);
+
+        var filePath = Path.Combine(folderPath, file.Name);
+
+        try
+        {
+            await using FileStream fs = new FileStream(filePath, FileMode.Create);
+            var browserFile = file.OpenReadStream();
+            await browserFile.CopyToAsync(fs);
+
+            /*using (var fileStream = new FileStream(filePath, FileMode.Create))
+            {
+                using var uploadedFileStream = file.OpenReadStream();
+                await uploadedFileStream.CopyToAsync(fileStream); */
+
+                var extension = Path.GetExtension(file.Name);
+
+                if (_imageExtensions.Contains(extension))
+                {
+                    _uploadedImageUrl = $"/uploads/{file.Name}";
+                    imageFile.FilePath = $"/uploads/{file.Name}";
+
+                    //TODO: Update webpage with file name after it's saved
+                }
+            //}
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine(ex.Message);
+        }
     }
 }

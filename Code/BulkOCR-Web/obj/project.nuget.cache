@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "BQSK1kRoHLI=",
+  "dgSpecHash": "mazj5TzldcU=",
   "success": true,
-  "projectFilePath": "Y:\\Projects\\Coding\\Visual Studio\\BulkOCR-Web\\Code\\BulkOCR-Web\\BulkOCR-Web.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "Z:\\Projects\\Coding\\Visual Studio\\BulkOCR-Web\\Code\\BulkOCR-Web\\BulkOCR-Web.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\cantc\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512",
+    "C:\\Users\\cantc\\.nuget\\packages\\tesseract\\5.2.0\\tesseract.5.2.0.nupkg.sha512"
+  ],
   "logs": []
 }
