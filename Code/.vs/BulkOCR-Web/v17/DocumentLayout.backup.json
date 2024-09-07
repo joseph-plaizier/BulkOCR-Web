@@ -1,25 +1,25 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "Y:\\Projects\\Coding\\Visual Studio\\BulkOCR-Web\\Code\\",
+  "WorkspaceRootPath": "Z:\\Projects\\Coding\\Visual Studio\\BulkOCR-Web\\Code\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E6783C32-30D1-48E9-BB54-FCE42C85A34E}|BulkOCR-Web\\BulkOCR-Web.csproj|y:\\projects\\coding\\visual studio\\bulkocr-web\\code\\bulkocr-web\\components\\collection\\fileuploadcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{E6783C32-30D1-48E9-BB54-FCE42C85A34E}|BulkOCR-Web\\BulkOCR-Web.csproj|z:\\projects\\coding\\visual studio\\bulkocr-web\\code\\bulkocr-web\\components\\collection\\fileuploadcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E6783C32-30D1-48E9-BB54-FCE42C85A34E}|BulkOCR-Web\\BulkOCR-Web.csproj|solutionrelative:bulkocr-web\\components\\collection\\fileuploadcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E6783C32-30D1-48E9-BB54-FCE42C85A34E}|BulkOCR-Web\\BulkOCR-Web.csproj|y:\\projects\\coding\\visual studio\\bulkocr-web\\code\\bulkocr-web\\components\\collection\\filedetailscomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{E6783C32-30D1-48E9-BB54-FCE42C85A34E}|BulkOCR-Web\\BulkOCR-Web.csproj|z:\\projects\\coding\\visual studio\\bulkocr-web\\code\\bulkocr-web\\components\\collection\\filedetailscomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E6783C32-30D1-48E9-BB54-FCE42C85A34E}|BulkOCR-Web\\BulkOCR-Web.csproj|solutionrelative:bulkocr-web\\components\\collection\\filedetailscomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E6783C32-30D1-48E9-BB54-FCE42C85A34E}|BulkOCR-Web\\BulkOCR-Web.csproj|y:\\projects\\coding\\visual studio\\bulkocr-web\\code\\bulkocr-web\\components\\collection\\convertedtext.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{E6783C32-30D1-48E9-BB54-FCE42C85A34E}|BulkOCR-Web\\BulkOCR-Web.csproj|z:\\projects\\coding\\visual studio\\bulkocr-web\\code\\bulkocr-web\\components\\collection\\convertedtext.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E6783C32-30D1-48E9-BB54-FCE42C85A34E}|BulkOCR-Web\\BulkOCR-Web.csproj|solutionrelative:bulkocr-web\\components\\collection\\convertedtext.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E6783C32-30D1-48E9-BB54-FCE42C85A34E}|BulkOCR-Web\\BulkOCR-Web.csproj|y:\\projects\\coding\\visual studio\\bulkocr-web\\code\\bulkocr-web\\components\\collection\\progressbarcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{E6783C32-30D1-48E9-BB54-FCE42C85A34E}|BulkOCR-Web\\BulkOCR-Web.csproj|z:\\projects\\coding\\visual studio\\bulkocr-web\\code\\bulkocr-web\\components\\collection\\progressbarcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E6783C32-30D1-48E9-BB54-FCE42C85A34E}|BulkOCR-Web\\BulkOCR-Web.csproj|solutionrelative:bulkocr-web\\components\\collection\\progressbarcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E6783C32-30D1-48E9-BB54-FCE42C85A34E}|BulkOCR-Web\\BulkOCR-Web.csproj|y:\\projects\\coding\\visual studio\\bulkocr-web\\code\\bulkocr-web\\tess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E6783C32-30D1-48E9-BB54-FCE42C85A34E}|BulkOCR-Web\\BulkOCR-Web.csproj|z:\\projects\\coding\\visual studio\\bulkocr-web\\code\\bulkocr-web\\tess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E6783C32-30D1-48E9-BB54-FCE42C85A34E}|BulkOCR-Web\\BulkOCR-Web.csproj|solutionrelative:bulkocr-web\\tess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -34,17 +34,17 @@
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "ProgressBarComponent.razor",
-              "DocumentMoniker": "Y:\\Projects\\Coding\\Visual Studio\\BulkOCR-Web\\Code\\BulkOCR-Web\\Components\\Collection\\ProgressBarComponent.razor",
+              "DocumentMoniker": "Z:\\Projects\\Coding\\Visual Studio\\BulkOCR-Web\\Code\\BulkOCR-Web\\Components\\Collection\\ProgressBarComponent.razor",
               "RelativeDocumentMoniker": "BulkOCR-Web\\Components\\Collection\\ProgressBarComponent.razor",
-              "ToolTip": "Y:\\Projects\\Coding\\Visual Studio\\BulkOCR-Web\\Code\\BulkOCR-Web\\Components\\Collection\\ProgressBarComponent.razor",
+              "ToolTip": "Z:\\Projects\\Coding\\Visual Studio\\BulkOCR-Web\\Code\\BulkOCR-Web\\Components\\Collection\\ProgressBarComponent.razor",
               "RelativeToolTip": "BulkOCR-Web\\Components\\Collection\\ProgressBarComponent.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-09-07T03:54:19.704Z",
               "EditorCaption": ""
@@ -53,11 +53,11 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "ConvertedText.razor",
-              "DocumentMoniker": "Y:\\Projects\\Coding\\Visual Studio\\BulkOCR-Web\\Code\\BulkOCR-Web\\Components\\Collection\\ConvertedText.razor",
+              "DocumentMoniker": "Z:\\Projects\\Coding\\Visual Studio\\BulkOCR-Web\\Code\\BulkOCR-Web\\Components\\Collection\\ConvertedText.razor",
               "RelativeDocumentMoniker": "BulkOCR-Web\\Components\\Collection\\ConvertedText.razor",
-              "ToolTip": "Y:\\Projects\\Coding\\Visual Studio\\BulkOCR-Web\\Code\\BulkOCR-Web\\Components\\Collection\\ConvertedText.razor",
+              "ToolTip": "Z:\\Projects\\Coding\\Visual Studio\\BulkOCR-Web\\Code\\BulkOCR-Web\\Components\\Collection\\ConvertedText.razor",
               "RelativeToolTip": "BulkOCR-Web\\Components\\Collection\\ConvertedText.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-09-06T18:41:02.191Z",
               "EditorCaption": ""
@@ -66,9 +66,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "FileDetailsComponent.razor",
-              "DocumentMoniker": "Y:\\Projects\\Coding\\Visual Studio\\BulkOCR-Web\\Code\\BulkOCR-Web\\Components\\Collection\\FileDetailsComponent.razor",
+              "DocumentMoniker": "Z:\\Projects\\Coding\\Visual Studio\\BulkOCR-Web\\Code\\BulkOCR-Web\\Components\\Collection\\FileDetailsComponent.razor",
               "RelativeDocumentMoniker": "BulkOCR-Web\\Components\\Collection\\FileDetailsComponent.razor",
-              "ToolTip": "Y:\\Projects\\Coding\\Visual Studio\\BulkOCR-Web\\Code\\BulkOCR-Web\\Components\\Collection\\FileDetailsComponent.razor",
+              "ToolTip": "Z:\\Projects\\Coding\\Visual Studio\\BulkOCR-Web\\Code\\BulkOCR-Web\\Components\\Collection\\FileDetailsComponent.razor",
               "RelativeToolTip": "BulkOCR-Web\\Components\\Collection\\FileDetailsComponent.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -79,9 +79,9 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "Tess.cs",
-              "DocumentMoniker": "Y:\\Projects\\Coding\\Visual Studio\\BulkOCR-Web\\Code\\BulkOCR-Web\\Tess.cs",
+              "DocumentMoniker": "Z:\\Projects\\Coding\\Visual Studio\\BulkOCR-Web\\Code\\BulkOCR-Web\\Tess.cs",
               "RelativeDocumentMoniker": "BulkOCR-Web\\Tess.cs",
-              "ToolTip": "Y:\\Projects\\Coding\\Visual Studio\\BulkOCR-Web\\Code\\BulkOCR-Web\\Tess.cs",
+              "ToolTip": "Z:\\Projects\\Coding\\Visual Studio\\BulkOCR-Web\\Code\\BulkOCR-Web\\Tess.cs",
               "RelativeToolTip": "BulkOCR-Web\\Tess.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -91,11 +91,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "FileUploadComponent.razor",
-              "DocumentMoniker": "Y:\\Projects\\Coding\\Visual Studio\\BulkOCR-Web\\Code\\BulkOCR-Web\\Components\\Collection\\FileUploadComponent.razor",
+              "DocumentMoniker": "Z:\\Projects\\Coding\\Visual Studio\\BulkOCR-Web\\Code\\BulkOCR-Web\\Components\\Collection\\FileUploadComponent.razor",
               "RelativeDocumentMoniker": "BulkOCR-Web\\Components\\Collection\\FileUploadComponent.razor",
-              "ToolTip": "Y:\\Projects\\Coding\\Visual Studio\\BulkOCR-Web\\Code\\BulkOCR-Web\\Components\\Collection\\FileUploadComponent.razor*",
-              "RelativeToolTip": "BulkOCR-Web\\Components\\Collection\\FileUploadComponent.razor*",
-              "ViewState": "AgIAADwAAAAAAAAAAAAYwEgAAAAeAAAAAAAAAA==",
+              "ToolTip": "Z:\\Projects\\Coding\\Visual Studio\\BulkOCR-Web\\Code\\BulkOCR-Web\\Components\\Collection\\FileUploadComponent.razor",
+              "RelativeToolTip": "BulkOCR-Web\\Components\\Collection\\FileUploadComponent.razor",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAAAJ0AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-08-31T15:40:37.82Z",
               "EditorCaption": ""
