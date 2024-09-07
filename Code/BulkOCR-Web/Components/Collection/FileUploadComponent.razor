@@ -19,25 +19,36 @@
 
 <br />
 <ul>
-    @foreach (var file in imageFiles2)
+    @if (fileLoaded)
     {
-        <FileDetailsComponent File="@file"></FileDetailsComponent>
-        <br />
-        @*TODO: wait for image file path to be saved to object before rendering the ConvertedText component*@
-        @*<ConvertedText ImagePath="@file.Name"></ConvertedText>*@
+        @foreach (ImageFile file in imageFiles2)
+        {
+            <FileDetailsComponent File="@file"></FileDetailsComponent>
+            <br />
+
+            @*<ConvertedText ImagePath="@file.FilePath"></ConvertedText>*@
+
+            @*TODO: wait for image file path to be saved to object before rendering the ConvertedText component*@
+
+        }
     }
+
 </ul>
 <div class="text-center">
     <button class="btn btn-primary" type="reset" @onclick="Reset">Reset</button>
     <br />
-    @tess.AppStart()
+    @*@tess.AppStart()*@
 </div>
 
 
 @code {
+    private long maxAllowedSize = 2147483647;
+
     private string? _uploadedImageUrl;
 
-    private Tess tess = new Tess();
+    private bool fileLoaded = false;
+
+    //private Tess tess = new Tess();
     private bool hiddenInput;
 
     private static readonly HashSet<string> _imageExtensions = new HashSet<string>(
@@ -46,7 +57,7 @@
     ".tiff",
     ".png"], StringComparer.OrdinalIgnoreCase);
 
-    private List<IBrowserFile> imageFiles = new ();
+    //private List<IBrowserFile> imageFiles = new ();
 
     private List<ImageFile> imageFiles2 = new();
 
@@ -56,21 +67,13 @@
 
         if(e != null)
         {
-            //hiddenInput = true;
+            hiddenInput = true;
 
             foreach (var i in e.GetMultipleFiles())
             {
-
-
-
-                string ext = i.Name.Substring(i.Name.LastIndexOf("."));
-                ImageFile img = new ImageFile(
-                    i.Name, 
-                    i.Size, 
-                    i.LastModified, 
-                    i.ContentType, 
-                    ext) ;
-
+                //string ext = Path.GetExtension(i.Name);
+                //string ext = i.Name.Substring(i.Name.LastIndexOf("."));
+                ImageFile img = new ImageFile(i);
 
                 //add files to list
                 //imageFiles.Add(image);
@@ -100,7 +103,8 @@
         try
         {
             await using FileStream fs = new FileStream(filePath, FileMode.Create);
-            var browserFile = file.OpenReadStream();
+            //2GB = 2*1024*1024*1024
+            var browserFile = file.OpenReadStream(maxAllowedSize);
             await browserFile.CopyToAsync(fs);
 
             /*using (var fileStream = new FileStream(filePath, FileMode.Create))
@@ -108,12 +112,13 @@
                 using var uploadedFileStream = file.OpenReadStream();
                 await uploadedFileStream.CopyToAsync(fileStream); */
 
-                var extension = Path.GetExtension(file.Name);
-
-                if (_imageExtensions.Contains(extension))
+                if (_imageExtensions.Contains(imageFile.Extension))
                 {
                     _uploadedImageUrl = $"/uploads/{file.Name}";
                     imageFile.FilePath = $"/uploads/{file.Name}";
+
+                    fileLoaded = true;
+                    StateHasChanged();
 
                     //TODO: Update webpage with file name after it's saved
                 }

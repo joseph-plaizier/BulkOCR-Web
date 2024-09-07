@@ -11,14 +11,20 @@ namespace BulkOCR_Web
         public string ContentType { get; set; }
         public string? FilePath { get; set; }
 
-        public ImageFile(string Name, long Size, DateTimeOffset LastModified, string ContentType, string Extension, string FilePath = null)
+        //public ImageFile(string Name, long Size, DateTimeOffset LastModified, string ContentType, string Extension, string FilePath = null)
+        public ImageFile(IBrowserFile imageFile)
         {
-            this.Name = Name;
-            this.Extension = Extension;
-            this.Size = Size;
-            this.LastModified = LastModified;
-            this.ContentType = ContentType;
-            this.FilePath = FilePath;
+            this.Name = imageFile.Name;
+            this.Size = imageFile.Size;
+            this.LastModified = imageFile.LastModified;
+            this.ContentType = imageFile.ContentType;
+            this.Extension = GetExtension(imageFile);
+            this.FilePath = null;
+        }
+
+        public string GetExtension(IBrowserFile imageFile)
+        {
+            return Path.GetExtension(imageFile.Name);
         }
 
     }

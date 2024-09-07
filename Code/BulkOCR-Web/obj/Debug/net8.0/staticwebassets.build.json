@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "lZXf4gBMlAA2KSgoy7t2ZHXkyXDx1KKHwtW2IJQ7xoY=",
+  "Hash": "HfaGQS2NNKiB089Pclub7m52l+R7ud1+qQE5Tzwnee4=",
   "Source": "BulkOCR-Web",
   "BasePath": "_content/BulkOCR-Web",
   "Mode": "Default",
@@ -150,12 +150,12 @@
       "OriginalItemSpec": "wwwroot\\uploads\\IMG_20231123_095420.jpg"
     },
     {
-      "Identity": "Z:\\Projects\\Coding\\Visual Studio\\BulkOCR-Web\\Code\\BulkOCR-Web\\wwwroot\\uploads\\IMG_20231123_122325.jpg",
+      "Identity": "Z:\\Projects\\Coding\\Visual Studio\\BulkOCR-Web\\Code\\BulkOCR-Web\\wwwroot\\uploads\\IMG_20231123_101651.jpg",
       "SourceId": "BulkOCR-Web",
       "SourceType": "Discovered",
       "ContentRoot": "Z:\\Projects\\Coding\\Visual Studio\\BulkOCR-Web\\Code\\BulkOCR-Web\\wwwroot\\",
       "BasePath": "_content/BulkOCR-Web",
-      "RelativePath": "uploads/IMG_20231123_122325.jpg",
+      "RelativePath": "uploads/IMG_20231123_101651.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -166,7 +166,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\IMG_20231123_122325.jpg"
+      "OriginalItemSpec": "wwwroot\\uploads\\IMG_20231123_101651.jpg"
     }
   ]
 }
