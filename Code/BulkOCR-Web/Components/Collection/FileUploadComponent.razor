@@ -32,6 +32,10 @@
 
         }
     }
+    else if(hiddenProgress)
+    {
+        <ProgressBarComponent></ProgressBarComponent>
+    }
 
 </ul>
 <div class="text-center">
@@ -42,6 +46,7 @@
 
 
 @code {
+    private bool hiddenProgress = false;
     private long maxAllowedSize = 2147483647;
 
     private string? _uploadedImageUrl;
@@ -65,9 +70,11 @@
     {
         imageFiles2.Clear();
 
+        hiddenProgress = true;
+
         if(e != null)
         {
-            hiddenInput = true;
+            hiddenInput = hiddenProgress = true;
 
             foreach (var i in e.GetMultipleFiles())
             {
@@ -92,6 +99,11 @@
 
         //clear listed files
         hiddenInput = false;
+
+        //hide file details
+        fileLoaded = false;
+
+        hiddenProgress = false;
     }
 
     public async Task UploadFile(IBrowserFile file, ImageFile imageFile){
@@ -118,6 +130,7 @@
                     //imageFile.FilePath = $"/uploads/{file.Name}";
 
                     fileLoaded = true;
+                    hiddenProgress = false;
                     StateHasChanged();
 
                     //TODO: Update webpage with file name after it's saved

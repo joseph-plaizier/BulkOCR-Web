@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "02oTXBIR9JCvBkBn5JdO3Hnmloo+nt5pnK/n/C70Cnc=",
+  "Hash": "EaoRmayq20MraL07fPEV9gjnvnZjX8uIk53eyygg7Fw=",
   "Source": "BulkOCR-Web",
   "BasePath": "_content/BulkOCR-Web",
   "Mode": "Default",
@@ -167,6 +167,44 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\uploads\\IMG_20231123_101651.jpg"
+    },
+    {
+      "Identity": "Y:\\Projects\\Coding\\Visual Studio\\BulkOCR-Web\\Code\\BulkOCR-Web\\wwwroot\\uploads\\IMG_20231123_101703.jpg",
+      "SourceId": "BulkOCR-Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "Y:\\Projects\\Coding\\Visual Studio\\BulkOCR-Web\\Code\\BulkOCR-Web\\wwwroot\\",
+      "BasePath": "_content/BulkOCR-Web",
+      "RelativePath": "uploads/IMG_20231123_101703.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\IMG_20231123_101703.jpg"
+    },
+    {
+      "Identity": "Y:\\Projects\\Coding\\Visual Studio\\BulkOCR-Web\\Code\\BulkOCR-Web\\wwwroot\\uploads\\IMG_20231123_102612.jpg",
+      "SourceId": "BulkOCR-Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "Y:\\Projects\\Coding\\Visual Studio\\BulkOCR-Web\\Code\\BulkOCR-Web\\wwwroot\\",
+      "BasePath": "_content/BulkOCR-Web",
+      "RelativePath": "uploads/IMG_20231123_102612.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\IMG_20231123_102612.jpg"
     }
   ]
 }

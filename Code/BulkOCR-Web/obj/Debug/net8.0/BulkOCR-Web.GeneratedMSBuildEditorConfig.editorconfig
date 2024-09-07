@@ -34,6 +34,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb2xsZWN0aW9uXEZpbGVVcGxvYWRDb21wb25lbnQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[Y:/Projects/Coding/Visual Studio/BulkOCR-Web/Code/BulkOCR-Web/Components/Collection/ProgressBarComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb2xsZWN0aW9uXFByb2dyZXNzQmFyQ29tcG9uZW50LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [Y:/Projects/Coding/Visual Studio/BulkOCR-Web/Code/BulkOCR-Web/Components/Pages/Error.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFcnJvci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 

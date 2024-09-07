@@ -29,6 +29,14 @@
       "PackagePath": "staticwebassets\\uploads\\IMG_20231123_101651.jpg"
     },
     {
+      "Id": "Y:\\Projects\\Coding\\Visual Studio\\BulkOCR-Web\\Code\\BulkOCR-Web\\wwwroot\\uploads\\IMG_20231123_101703.jpg",
+      "PackagePath": "staticwebassets\\uploads\\IMG_20231123_101703.jpg"
+    },
+    {
+      "Id": "Y:\\Projects\\Coding\\Visual Studio\\BulkOCR-Web\\Code\\BulkOCR-Web\\wwwroot\\uploads\\IMG_20231123_102612.jpg",
+      "PackagePath": "staticwebassets\\uploads\\IMG_20231123_102612.jpg"
+    },
+    {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.BulkOCR-Web.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
