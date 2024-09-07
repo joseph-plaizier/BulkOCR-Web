@@ -26,7 +26,7 @@
             <FileDetailsComponent File="@file"></FileDetailsComponent>
             <br />
 
-            @*<ConvertedText ImagePath="@file.FilePath"></ConvertedText>*@
+            <ConvertedText ImagePath="@file.FilePath"></ConvertedText>
 
             @*TODO: wait for image file path to be saved to object before rendering the ConvertedText component*@
 
@@ -103,7 +103,6 @@
         try
         {
             await using FileStream fs = new FileStream(filePath, FileMode.Create);
-            //2GB = 2*1024*1024*1024
             var browserFile = file.OpenReadStream(maxAllowedSize);
             await browserFile.CopyToAsync(fs);
 
@@ -115,7 +114,8 @@
                 if (_imageExtensions.Contains(imageFile.Extension))
                 {
                     _uploadedImageUrl = $"/uploads/{file.Name}";
-                    imageFile.FilePath = $"/uploads/{file.Name}";
+                    imageFile.FilePath = filePath;
+                    //imageFile.FilePath = $"/uploads/{file.Name}";
 
                     fileLoaded = true;
                     StateHasChanged();

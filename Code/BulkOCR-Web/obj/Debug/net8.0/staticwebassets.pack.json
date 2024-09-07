@@ -1,31 +1,31 @@
 {
   "Files": [
     {
-      "Id": "Z:\\Projects\\Coding\\Visual Studio\\BulkOCR-Web\\Code\\BulkOCR-Web\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BulkOCR-Web.bundle.scp.css",
+      "Id": "Y:\\Projects\\Coding\\Visual Studio\\BulkOCR-Web\\Code\\BulkOCR-Web\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BulkOCR-Web.bundle.scp.css",
       "PackagePath": "staticwebassets\\BulkOCR-Web.bundle.scp.css"
     },
     {
-      "Id": "Z:\\Projects\\Coding\\Visual Studio\\BulkOCR-Web\\Code\\BulkOCR-Web\\wwwroot\\app.css",
+      "Id": "Y:\\Projects\\Coding\\Visual Studio\\BulkOCR-Web\\Code\\BulkOCR-Web\\wwwroot\\app.css",
       "PackagePath": "staticwebassets\\app.css"
     },
     {
-      "Id": "Z:\\Projects\\Coding\\Visual Studio\\BulkOCR-Web\\Code\\BulkOCR-Web\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Id": "Y:\\Projects\\Coding\\Visual Studio\\BulkOCR-Web\\Code\\BulkOCR-Web\\wwwroot\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Id": "Z:\\Projects\\Coding\\Visual Studio\\BulkOCR-Web\\Code\\BulkOCR-Web\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Id": "Y:\\Projects\\Coding\\Visual Studio\\BulkOCR-Web\\Code\\BulkOCR-Web\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Id": "Z:\\Projects\\Coding\\Visual Studio\\BulkOCR-Web\\Code\\BulkOCR-Web\\wwwroot\\favicon.png",
+      "Id": "Y:\\Projects\\Coding\\Visual Studio\\BulkOCR-Web\\Code\\BulkOCR-Web\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {
-      "Id": "Z:\\Projects\\Coding\\Visual Studio\\BulkOCR-Web\\Code\\BulkOCR-Web\\wwwroot\\uploads\\IMG_20231123_095420.jpg",
+      "Id": "Y:\\Projects\\Coding\\Visual Studio\\BulkOCR-Web\\Code\\BulkOCR-Web\\wwwroot\\uploads\\IMG_20231123_095420.jpg",
       "PackagePath": "staticwebassets\\uploads\\IMG_20231123_095420.jpg"
     },
     {
-      "Id": "Z:\\Projects\\Coding\\Visual Studio\\BulkOCR-Web\\Code\\BulkOCR-Web\\wwwroot\\uploads\\IMG_20231123_101651.jpg",
+      "Id": "Y:\\Projects\\Coding\\Visual Studio\\BulkOCR-Web\\Code\\BulkOCR-Web\\wwwroot\\uploads\\IMG_20231123_101651.jpg",
       "PackagePath": "staticwebassets\\uploads\\IMG_20231123_101651.jpg"
     },
     {

@@ -95,3 +95,10 @@ Z:\Projects\Coding\Visual Studio\BulkOCR-Web\Code\BulkOCR-Web\bin\Debug\net8.0\x
 Z:\Projects\Coding\Visual Studio\BulkOCR-Web\Code\BulkOCR-Web\bin\Debug\net8.0\Tesseract.dll
 Z:\Projects\Coding\Visual Studio\BulkOCR-Web\Code\BulkOCR-Web\obj\Debug\net8.0\BulkOCR-Web.csproj.AssemblyReference.cache
 Z:\Projects\Coding\Visual Studio\BulkOCR-Web\Code\BulkOCR-Web\obj\Debug\net8.0\BulkOCR-.83BA3AF2.Up2Date
+Y:\Projects\Coding\Visual Studio\BulkOCR-Web\Code\BulkOCR-Web\bin\Debug\net8.0\x86\leptonica-1.82.0.dll
+Y:\Projects\Coding\Visual Studio\BulkOCR-Web\Code\BulkOCR-Web\bin\Debug\net8.0\x86\tesseract50.dll
+Y:\Projects\Coding\Visual Studio\BulkOCR-Web\Code\BulkOCR-Web\bin\Debug\net8.0\x64\leptonica-1.82.0.dll
+Y:\Projects\Coding\Visual Studio\BulkOCR-Web\Code\BulkOCR-Web\bin\Debug\net8.0\x64\tesseract50.dll
+Y:\Projects\Coding\Visual Studio\BulkOCR-Web\Code\BulkOCR-Web\bin\Debug\net8.0\Tesseract.dll
+Y:\Projects\Coding\Visual Studio\BulkOCR-Web\Code\BulkOCR-Web\obj\Debug\net8.0\BulkOCR-Web.csproj.AssemblyReference.cache
+Y:\Projects\Coding\Visual Studio\BulkOCR-Web\Code\BulkOCR-Web\obj\Debug\net8.0\BulkOCR-.83BA3AF2.Up2Date
