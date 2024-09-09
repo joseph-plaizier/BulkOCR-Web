@@ -9,59 +9,59 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BulkOCR-Web
 build_property.RootNamespace = BulkOCR-Web
-build_property.ProjectDir = Z:\Projects\Coding\Visual Studio\BulkOCR-Web\Code\BulkOCR-Web\
+build_property.ProjectDir = Y:\Projects\Coding\Visual Studio\BulkOCR-Web\Code\BulkOCR-Web\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = Z:\Projects\Coding\Visual Studio\BulkOCR-Web\Code\BulkOCR-Web
+build_property.MSBuildProjectDirectory = Y:\Projects\Coding\Visual Studio\BulkOCR-Web\Code\BulkOCR-Web
 build_property._RazorSourceGeneratorDebug = 
 
-[Z:/Projects/Coding/Visual Studio/BulkOCR-Web/Code/BulkOCR-Web/Components/App.razor]
+[Y:/Projects/Coding/Visual Studio/BulkOCR-Web/Code/BulkOCR-Web/Components/App.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBcHAucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[Z:/Projects/Coding/Visual Studio/BulkOCR-Web/Code/BulkOCR-Web/Components/Collection/ConvertedText.razor]
+[Y:/Projects/Coding/Visual Studio/BulkOCR-Web/Code/BulkOCR-Web/Components/Collection/ConvertedText.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb2xsZWN0aW9uXENvbnZlcnRlZFRleHQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[Z:/Projects/Coding/Visual Studio/BulkOCR-Web/Code/BulkOCR-Web/Components/Collection/FileDetailsComponent.razor]
+[Y:/Projects/Coding/Visual Studio/BulkOCR-Web/Code/BulkOCR-Web/Components/Collection/FileDetailsComponent.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb2xsZWN0aW9uXEZpbGVEZXRhaWxzQ29tcG9uZW50LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[Z:/Projects/Coding/Visual Studio/BulkOCR-Web/Code/BulkOCR-Web/Components/Collection/FileUploadComponent.razor]
+[Y:/Projects/Coding/Visual Studio/BulkOCR-Web/Code/BulkOCR-Web/Components/Collection/FileUploadComponent.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb2xsZWN0aW9uXEZpbGVVcGxvYWRDb21wb25lbnQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[Z:/Projects/Coding/Visual Studio/BulkOCR-Web/Code/BulkOCR-Web/Components/Collection/ProgressBarComponent.razor]
+[Y:/Projects/Coding/Visual Studio/BulkOCR-Web/Code/BulkOCR-Web/Components/Collection/ProgressBarComponent.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb2xsZWN0aW9uXFByb2dyZXNzQmFyQ29tcG9uZW50LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[Z:/Projects/Coding/Visual Studio/BulkOCR-Web/Code/BulkOCR-Web/Components/Pages/Error.razor]
+[Y:/Projects/Coding/Visual Studio/BulkOCR-Web/Code/BulkOCR-Web/Components/Pages/Error.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFcnJvci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[Z:/Projects/Coding/Visual Studio/BulkOCR-Web/Code/BulkOCR-Web/Components/Pages/Home.razor]
+[Y:/Projects/Coding/Visual Studio/BulkOCR-Web/Code/BulkOCR-Web/Components/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xIb21lLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[Z:/Projects/Coding/Visual Studio/BulkOCR-Web/Code/BulkOCR-Web/Components/Pages/Weather.razor]
+[Y:/Projects/Coding/Visual Studio/BulkOCR-Web/Code/BulkOCR-Web/Components/Pages/Weather.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xXZWF0aGVyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[Z:/Projects/Coding/Visual Studio/BulkOCR-Web/Code/BulkOCR-Web/Components/Routes.razor]
+[Y:/Projects/Coding/Visual Studio/BulkOCR-Web/Code/BulkOCR-Web/Components/Routes.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xSb3V0ZXMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[Z:/Projects/Coding/Visual Studio/BulkOCR-Web/Code/BulkOCR-Web/Components/_Imports.razor]
+[Y:/Projects/Coding/Visual Studio/BulkOCR-Web/Code/BulkOCR-Web/Components/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xfSW1wb3J0cy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[Z:/Projects/Coding/Visual Studio/BulkOCR-Web/Code/BulkOCR-Web/Components/Layout/MainLayout.razor]
+[Y:/Projects/Coding/Visual Studio/BulkOCR-Web/Code/BulkOCR-Web/Components/Layout/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTWFpbkxheW91dC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-2se5ofsvvv
 
-[Z:/Projects/Coding/Visual Studio/BulkOCR-Web/Code/BulkOCR-Web/Components/Layout/NavMenu.razor]
+[Y:/Projects/Coding/Visual Studio/BulkOCR-Web/Code/BulkOCR-Web/Components/Layout/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTmF2TWVudS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-r9kkn4go08
