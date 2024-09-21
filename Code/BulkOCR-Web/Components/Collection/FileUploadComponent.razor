@@ -1,6 +1,8 @@
 ﻿@rendermode InteractiveServer
 @inject IWebHostEnvironment WebHotEnv
 
+@*@implements IDisposable*@
+
 <div class="text-center">
     <p>Please select images to upload.</p>
     <br />
@@ -68,6 +70,8 @@
 
     private List<ImageFile> imageFiles2 = new();
 
+    private string folderPath = string.Empty;
+
     private async void LoadFiles(InputFileChangeEventArgs e)
     {
         imageFiles2.Clear();
@@ -101,7 +105,7 @@
     }
 
     public async Task UploadFile(IBrowserFile file, ImageFile imageFile){
-        var folderPath = Path.Combine(WebHotEnv.WebRootPath, "uploads");
+        folderPath = Path.Combine(WebHotEnv.WebRootPath, "uploads");
         Directory.CreateDirectory(folderPath);
 
         var filePath = Path.Combine(folderPath, file.Name);
@@ -156,5 +160,19 @@
         progressCount = 0;
         totalCount = 0;
         progressPercent = 0;
+
+
+        Directory.Delete(folderPath, true);
+
+        StateHasChanged();
+
     }
+    //TODO: Delete uploads folder when application closes without pushing Reset button
+
+    //public void Dispose()
+    //{
+    //    Directory.Delete(folderPath, true);
+    //}
+
+    
 }
